@@ -5,12 +5,12 @@
    {
       "name": "install-acpid.sh",
       "url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/src/install-acpid.sh",
-      "sha256": "5b3e42a3907c00b1dd1ae31363a4ae648b88cda5b18cc39f3601548bb7af6a35",
+      "sha256": "b6f6375b40f2c0d61858dfc7c4d20e5896963c6f826f6c1d13b64f83cfd6b6a5",
       "packed": false
     },
     {
       "name": "acpid.tar.gz",
-      "url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/acpid.tar.gz",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/releases/acpid.tar.gz",
       "sha256": "2dfb078b54e63802c48393b1f488a4c7303a14c7ee3bd16c7f169e5fca661c73",
       "packed": true
     },
