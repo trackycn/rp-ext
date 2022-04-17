@@ -5,7 +5,9 @@
 tar -zxvf acpid.tar.gz -C /tmpRoot/
 
 # enable
-systemctl enable acpid.service
+#systemctl enable acpid.service
 
 # start
-systemctl start acpid.service
+#systemctl start acpid.service
+
+ln -sf /tmpRoot/usr/lib/systemd/system/acpid.service /tmpRoot/etc/systemd/system/multi-user.target.wants/acpid.service
