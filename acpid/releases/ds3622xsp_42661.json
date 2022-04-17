@@ -3,25 +3,25 @@
 
   "files": [
     {
-      "name": "vmxnet3-4.4.180plus-broadwellnk.tgz",
+      "name": "broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-4.4.180plus-broadwellnk.tgz",
-      "sha256": "35d9a6ed7f26298b6da8f597b110c1ff75b7d34ea3b0e9450a6888be6d83b043",
+      "sha256": "dfc84c44746524272101ec9207a03ffb75a708a0adba4d9df941d6e20bd9fc3f",
       "packed": true
     },
     {
-      "name": "check-vmxnet3.sh",
+      "name": "check-button.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
-      "sha256": "ac30bf116182d716706938117d21fddbe011f636c7bbe38d9ba0ac07aebdc49d",
+      "sha256": "0267e54d96aa02b8f2098331f5e2cb82d367e9212e427ffbbb925c278c3acada",
       "packed": false
     }
   ],
 
   "kmods": {
-    "vmxnet3.ko": ""
+    "button.ko": ""
   },
 
     "scripts": {
-    "on_boot": "check-vmxnet3.sh"
+    "on_boot": "check-button.sh"
   }
 
 }
