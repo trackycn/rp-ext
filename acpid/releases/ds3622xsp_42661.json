@@ -5,7 +5,7 @@
    {
       "name": "install-acpid.sh",
       "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/src/install-acpid.sh",
-      "sha256": "5ad281aa03a23a88c64c32816e45e35a80294620322484dad24aae6bdec41a96",
+      "sha256": "ba111067d69a7d63f0c98d30f3f730a52c0e16836649f2c400628ca55fc98814",
       "packed": false
     },
     {
