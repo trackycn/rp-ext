@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "broadwellnk.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/releases/broadwellnk.tgz",
       "sha256": "dfc84c44746524272101ec9207a03ffb75a708a0adba4d9df941d6e20bd9fc3f",
       "packed": true
     },
     {
       "name": "check-button.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/src/check-button.sh",
       "sha256": "0267e54d96aa02b8f2098331f5e2cb82d367e9212e427ffbbb925c278c3acada",
       "packed": false
     }
