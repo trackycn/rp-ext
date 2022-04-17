@@ -10,4 +10,4 @@ tar -zxvf acpid.tar.gz -C /tmpRoot/
 # start
 #systemctl start acpid.service
 
-ln -sf /tmpRoot/usr/lib/systemd/system/acpid.service /tmpRoot/etc/systemd/system/multi-user.target.wants/acpid.service
+ln -sf /tmpRoot/usr/lib/systemd/system/acpid.service /etc/systemd/system/multi-user.target.wants/acpid.service
