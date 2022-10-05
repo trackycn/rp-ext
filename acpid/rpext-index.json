@@ -1,15 +1,15 @@
 {
   "id": "dodo-dk.acpid",
-  "url": "https://raw.githubusercontent.com/tracky/rp-ext/main/acpid/rpext-index.json",
+  "url": "https://raw.githubusercontent.com/trackycn/rp-ext/main/acpid/rpext-index.json",
   "info": {
     "name": "ACPI Daemon",
     "description": "ACPI Daemon v2 that handles power button events v1.4",
-    "author_url": "https://github.com/tracky",
-    "packer_url": "https://github.com/tracky/rp-ext/tree/main/acpid",
+    "author_url": "https://github.com/trackycn",
+    "packer_url": "https://github.com/trackycn/rp-ext/tree/main/acpid",
     "help_url": "<todo>"
   },
   "releases": {
-    "ds3622xsp_42661": "https://raw.githubusercontent.com/tracky/rp-ext/main/acpid/releases/ds3622xsp_42661.json",
-    "ds3622xsp_42962": "https://raw.githubusercontent.com/tracky/rp-ext/main/acpid/releases/ds3622xsp_42962.json"
+    "ds3622xsp_42661": "https://raw.githubusercontent.com/trackycn/rp-ext/main/acpid/releases/ds3622xsp_42661.json",
+    "ds3622xsp_42962": "https://raw.githubusercontent.com/trackycn/rp-ext/main/acpid/releases/ds3622xsp_42962.json"
   }
 }
