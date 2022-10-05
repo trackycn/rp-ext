@@ -1,0 +1,40 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+   {
+      "name": "install-acpid.sh",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/src/install-acpid.sh",
+      "sha256": "ba111067d69a7d63f0c98d30f3f730a52c0e16836649f2c400628ca55fc98814",
+      "packed": false
+    },
+    {
+      "name": "acpid.tar.gz",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/releases/acpid.tar.gz",
+      "sha256": "2dfb078b54e63802c48393b1f488a4c7303a14c7ee3bd16c7f169e5fca661c73",
+      "packed": false
+    },
+    {
+      "name": "broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/releases/broadwellnk.tgz",
+      "sha256": "dfc84c44746524272101ec9207a03ffb75a708a0adba4d9df941d6e20bd9fc3f",
+      "packed": true
+    },
+    {
+      "name": "check-button.sh",
+      "url": "https://raw.githubusercontent.com/dodo-dk/rp-ext/main/acpid/src/check-button.sh",
+      "sha256": "0267e54d96aa02b8f2098331f5e2cb82d367e9212e427ffbbb925c278c3acada",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "button.ko": ""
+  },
+
+    "scripts": {
+    "on_os_load": "install-acpid.sh",
+    "on_boot": "check-button.sh"
+  }
+
+}
